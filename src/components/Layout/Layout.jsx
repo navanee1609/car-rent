@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import Routers from '../../routers/Routers'
+
+
+// importing custom jsx files
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <Fragment>
+        <Header/>
+        <div>
+            <Routers/>
+        </div>
+        <Footer/>
+    </Fragment>
   )
 }
 
