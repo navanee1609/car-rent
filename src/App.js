@@ -1,9 +1,11 @@
+import Layout from './components/Layout/Layout'
 
 
-function App() {
-  return (
-   <h3>Hello world</h3>
-  );
+
+function App (){
+  return <Layout/>
 }
 
-export default App;
+
+
+export default App
