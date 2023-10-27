@@ -43,13 +43,15 @@
   }
 
 
-  /* header middle styling */
+  /*=========== header middle styling=========== */
 
+
+  /* header */
   .header__middle {
     padding: 20px 0px;
   }
   
-  
+  /* logo */
 .logo h1 a span {
   font-size: 1.5rem;
 }
@@ -66,4 +68,21 @@
 
 .logo h1 {
   line-height: 1.5rem;
+}
+
+/* location */
+
+.header__location span i {
+  font-size: 2.2rem;
+  color: #000d6b;
+}
+
+.header__location-content h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000d6b;
+}
+
+.header__location-content h6 {
+  font-weight: 600;
 }
