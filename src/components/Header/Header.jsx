@@ -58,7 +58,17 @@ const Header = () => {
               </div>
             </Col>
 
-           
+            <Col lg="3" md="3" sm="4">
+              <div className="header__location d-flex align-items-center gap-2">
+                <span>
+                  <i class="ri-earth-line"></i>
+                </span>
+                <div className="header__location-content">
+                  <h4>India</h4>
+                  <h6>Chennai, india</h6>
+                </div>
+              </div>
+            </Col>
           </Row>
         </Container>
       </div>
