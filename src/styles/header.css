@@ -174,3 +174,7 @@
   cursor: pointer;
 }
 
+/* active element */
+.nav__active {
+  color: #f9a826;
+}
