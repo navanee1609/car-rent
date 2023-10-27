@@ -86,3 +86,28 @@
 .header__location-content h6 {
   font-weight: 600;
 }
+
+
+/* header-btn */
+
+.header__btn {
+  background: #000d6b !important;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.header__btn a {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  text-decoration: none;
+  color: #fff;
+  justify-content: end;
+  font-size: 0.9rem;
+}
+
+.header__btn a:hover {
+  color: #fff;
+}
