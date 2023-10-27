@@ -37,6 +37,31 @@ const Header = () => {
       </Container>
 
     </div>
+
+
+
+    {/* header middle */}
+
+    <div className="header__middle">
+        <Container>
+          <Row>
+            <Col lg="4" md="3" sm="4">
+              <div className="logo">
+                <h1>
+                  <Link to="/home" className=" d-flex align-items-center gap-2">
+                    <i class="ri-car-line"></i>
+                    <span>
+                      Rent Car <br /> Service
+                    </span>
+                  </Link>
+                </h1>
+              </div>
+            </Col>
+
+           
+          </Row>
+        </Container>
+      </div>
   </header>
 }
 
