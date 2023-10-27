@@ -111,3 +111,38 @@
 .header__btn a:hover {
   color: #fff;
 }
+
+
+/* ================ main navbar styles =========== */
+
+.main__navbar {
+  padding: 15px 0px;
+  background: #000d6b;
+}
+
+/* mobile menu (hamburger) */
+.mobile__menu i {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.mobile__menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+
+.nav__item {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__item:hover {
+  color: #f9a826;
+}
