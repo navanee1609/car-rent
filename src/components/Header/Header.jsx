@@ -58,6 +58,8 @@ const Header = () => {
               </div>
             </Col>
 
+            {/* location */}
+
             <Col lg="3" md="3" sm="4">
               <div className="header__location d-flex align-items-center gap-2">
                 <span>
