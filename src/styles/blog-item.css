@@ -4,7 +4,13 @@
   
   .blog__time {
     border-top: 1px solid #7c8a972e;
-  }
+    transition: transform 0.3s ease; 
+}
+
+.blog__time:hover {
+    transform: translateY(23px); 
+}
+
   
   .read__more {
     color: #f9a826;
