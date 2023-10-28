@@ -1,3 +1,19 @@
+
+.contact__btn{
+    background: #000d6b !important;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.contact__btn:hover{
+    color: #000d6b;
+    background-color: #fff !important;
+}
+
 .social__link-icon {
     text-decoration: none;
     color: #000d6b;
@@ -7,9 +23,9 @@
 }
 
 .social__link-icon:hover::after {
-    content: 'connect with us'; /* Show the content from data-tooltip as the tooltip text */
+    content: 'connect with us'; 
     position: absolute;
-    bottom: 100%; /* Position the tooltip above the icon */
+    bottom: 100%; 
     left: 50%;
     transform: translateX(-50%);
     padding: 5px;
@@ -19,8 +35,7 @@
     font-size: 0.8rem;
     white-space: nowrap;
     opacity: 0;
-    transition: opacity 0.3s; /* Add a transition for the tooltip visibility */
-}
+    transition: opacity 0.3s; 
 
 .social__link-icon:hover::after {
     opacity: 1;
@@ -32,4 +47,5 @@
         margin-bottom: 40px;
         font-size: 0.8rem;
     }
+}
 }
