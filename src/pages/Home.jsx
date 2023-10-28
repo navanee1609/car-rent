@@ -40,7 +40,7 @@ const Home = () => {
       {/* =========== about section ================ */}
       <AboutSection />
       {/* ========== services section ============ */}
-      {/* <section>
+      <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -51,7 +51,7 @@ const Home = () => {
             <ServicesList />
           </Row>
         </Container>
-      </section> */}
+      </section>
       {/* =========== car offer section ============= */}
       {/* <section>
         <Container>
