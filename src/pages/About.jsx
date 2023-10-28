@@ -7,7 +7,7 @@ import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 
 import driveImg from "../assets/all-images/drive.jpg";
-// import OurMembers from "../components/UI/OurMembers";
+import OurMembers from "../components/UI/OurMembers";
 // import "../styles/about.css";
 
 const About = () => {
@@ -70,7 +70,7 @@ const About = () => {
               <h6 className="section__subtitle">Experts</h6>
               <h2 className="section__title">Our Members</h2>
             </Col>
-            {/* <OurMembers /> */}
+            <OurMembers />
           </Row>
         </Container>
       </section>
