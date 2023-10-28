@@ -1,6 +1,6 @@
 import React from "react";
 import { Col } from "reactstrap";
-// import "../../styles/blog-item.css";
+import "../../styles/blog-item.css";
 import { Link } from "react-router-dom";
 import blogData from "../../assets/data/blogData";
 
