@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/our-member.css";
+import "../../styles/our-members.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import ava01 from "../../assets/all-images/ava-1.jpg";
