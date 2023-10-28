@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
+import { Container, Row , Col, Form, FormGroup, Input } from "reactstrap";
 
 import { useParams } from "react-router-dom";
 import blogData from "../assets/data/blogData.js";
