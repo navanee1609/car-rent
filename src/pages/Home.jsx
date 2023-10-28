@@ -8,7 +8,7 @@ import FindCarForm from "../components/UI/FindCarForm";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
-// import CarItem from "../components/UI/CarItem";
+import CarItem from "../components/UI/CarItem";
 // import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 // import Testimonial from "../components/UI/Testimonial";
 
@@ -53,7 +53,7 @@ const Home = () => {
         </Container>
       </section>
       {/* =========== car offer section ============= */}
-      {/* <section>
+      <section>
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
@@ -66,7 +66,7 @@ const Home = () => {
             ))}
           </Row>
         </Container>
-      </section> */}
+      </section>
       {/* =========== become a driver section ============ */}
       {/* <BecomeDriverSection /> */}
 
