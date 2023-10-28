@@ -42,7 +42,7 @@ const BlogItem = ({ item }) => {
 
             <div className=" d-flex align-items-center gap-3">
               <span className=" d-flex align-items-center gap-1 section__description">
-                <i class="ri-calendar-line"></i> {date}
+                
               </span>
 
               <span className=" d-flex align-items-center gap-1 section__description">
