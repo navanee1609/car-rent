@@ -209,7 +209,7 @@
 
   .menu {
     width: 200px; 
-    height: 50%; 
+    height: 70%; 
     background: #000d6b;
     color: #fff;
     display: flex;
@@ -227,7 +227,7 @@
 
 /* Add styles for the menu items */
 .menu-item {
-    margin: 1rem 0;
+    margin: 1rem auto;
     color: #000d6b; 
     text-align: center;
     text-decoration: none;
