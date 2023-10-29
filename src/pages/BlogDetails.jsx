@@ -10,7 +10,7 @@ import commentImg from "../assets/all-images/ava-1.jpg";
 
 // import '../styles/blog-details.css';
 
-import "../styles/blog-details.css"
+// import "../styles/blog-details.css"
 
 
 const BlogDetails = () => {
